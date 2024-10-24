@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pemesanan Pizza</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Form Pemesanan Pizza</legend>
+      <h1>Selamat Datang Pizza NF</h1>
+
+      <form action="pesanan.html" method="post">
+        <table>
+          <thead>
+            <tr>
+              <td>Silahkan Isi pesanan :</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><label for="nama">Nama :</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="nama"
+                  id="nama"
+                  placeholder="Masukan Nama Anda..."
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="alamat">Alamat :</label></td>
+              <td>
+                <input
+                  type="textarea"
+                  name="alamat"
+                  id="alamat"
+                  placeholder="Masukan Alamat Anda..."
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="notlp">No Telphone :</label></td>
+              <td>
+                <input
+                  type="number"
+                  name="notlp"
+                  id="notlp"
+                  placeholder="Masukan No Telphone Anda..."
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="textarea">Alamat :</label></td>
+              <td>
+                <input
+                  type="textarea"
+                  name="alamat"
+                  id="alamat"
+                  placeholder="Masukan Alamat Anda..."
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="email">Email :</label></td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Masukan Email Anda..."
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="note">Notes Pemesanan :</label></td>
+              <td>
+                <textarea
+                  name="note"
+                  id="note"
+                  placeholder="Masukan Note Anda..."
+                  required
+                ></textarea>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Silahkan Pilih Salah Satu</h4>
+
+        <label for="crust">Crust</label><br />
+
+        <input type="radio" name="crust" id="crust" name="crust" />
+        <label for="cs">Classic White</label><br />
+
+        <input type="radio" name="crust" id="crust" name="crust" />
+        <label for="cs">Multigrain</label><br />
+
+        <input type="radio" name="crust" id="crust" name="crust" />
+        <label for="cs"> Cheese Stuffed</label><br />
+
+        <input type="radio" name="crust" id="crust" name="crust" />
+        <label for="cs"> Glutten Free</label><br />
+
+        <br />
+
+        <label for="topping"> Topping (Silahkan Pilih Lebih dari 1)</label
+        ><br />
+        <input type="checkbox" id="" name="topping" value="rs" /> red sauce
+        <br />
+        <input type="checkbox" id="" name="topping" value="mz" /> Mozarella
+        <br />
+        <input type="checkbox" id="" name="topping" value="bf" /> Beef <br />
+        <input type="checkbox" id="" name="topping" value="pp" /> Paperoni
+        <br />
+
+        <h4>Number</h4>
+        <label for="">Pesan Pizza :</label>
+        <input type="number" min="1" max="10" />
+        <br /><br />
+
+        <button type="submit" value="pesan">Pesan Sekarang</button>
+        <button type="reset" value="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
