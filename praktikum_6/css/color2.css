@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.foto img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-left: 45px;
+}
+
+.foto .foto1 {
+    border-radius: 10%;
+    box-shadow: 4px 8px 8px #000;
+    transition: 0.3s;
+    color: black;
+}
+.foto .foto2 {
+    border-radius: 10%;
+    box-shadow: 4px 8px 8px #000;
+    transition: 0.3s;
+    color: black;
+}
+.foto .foto3 {
+    border-radius: 10%;
+    box-shadow: 4px 8px 8px #000;
+    transition: 0.3s;
+    color: black;
+}
+.foto .foto4 {
+    border-radius: 10%;
+    box-shadow: 4px 8px 8px #000;
+    transition: 0.3s;
+    color: black;
+}
+
+.foto .foto1:hover {
+    transform: scale(1.1);
+}
+.foto .foto2:hover {
+    transform: scale(1.1);
+}
+.foto .foto3:hover {
+    transform: scale(1.1);
+}
+.foto .foto4:hover {
+    transform: scale(1.1);
+}

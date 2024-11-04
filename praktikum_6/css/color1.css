@@ -1,0 +1,32 @@
+body {
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.box {
+    border: 1px solid #000;
+    background-color: aqua;
+    width: 250px;
+    height: 600px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.red{
+    font-size: 50px;
+    background-color: red;
+}
+.yellow{
+    font-size: 50px;
+    background-color: yellow;
+    color: black;
+}
+.green{
+    font-size: 50px;
+    background-color: green;
+}
+.blue{
+    font-size: 50px;
+    background-color: blue;
+}
