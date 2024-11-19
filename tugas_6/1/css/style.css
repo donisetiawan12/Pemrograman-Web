@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    border: 2px solid #000;
+    margin: 20px;
+    width: 20px auto;
+    background-color: rgb(99, 197, 99);
+    color: rgb(99, 197, 99);
+    height: 100px;
+    transition: 0.4s;
+}
+
+.header h1 {
+    width: 100px;
+    margin: 20px auto;
+}
+
+.kunge {
+    display: flex;
+}
+
+.kuning {
+    margin: 20px;
+    width: 200px;
+    height: 230px;
+    border: 2px solid #000;
+    background-color: yellow;
+    color: yellow;
+    transition: 0.2s;
+}
+
+.kuning h1 {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.orange {
+    margin: 20px;
+    border: 2px solid #000;
+    background-color: orange;
+    width: 1000px;
+    height: 230px;
+    color: orange;
+    transition: 0.4s;
+}
+
+.orange h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.kubir {
+    display: flex;
+}
+
+.kubir .kuba {
+    margin: 20px;
+    width: 200px;
+    height: 190px;
+    border: 2px solid #000;
+    background-color: yellow;
+    color: yellow;
+    transition: 0.4s;
+}
+
+.kubir .kuba h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.kubir .biru {
+    margin: 20px;
+    background-color: skyblue;
+    border: 2px solid #000;
+    width: 1000px;
+    height: 190px;
+    color: skyblue;
+    transition: 0.4s;
+}
+
+.kubir .biru h1 {
+    margin: 30px auto;
+    text-align: center;
+}
+
+footer {
+    margin: 20px auto;
+    text-align: center;
+}
