@@ -1,0 +1,27 @@
+header {
+    background: linear-gradient(to top, white, gray);
+    margin: -10px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+header li {
+    margin: 01em;
+}
+
+header li.logo {
+    margin-right: auto;
+    
+}
+
+header img.logo {
+    width: 30%;
+    border-radius: 3rem;
+}
