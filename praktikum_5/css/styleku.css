@@ -1,0 +1,264 @@
+body {
+    background-color: #300b41;
+    font-family: 'lora';
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+#header {
+    background-color: #5270b4;
+    margin-top: -20px;
+    height: 165px;
+    border-radius: 10px;
+}
+#header h1 {
+    text-align: center;
+    font-family: 'lora';
+    color: rgb(255, 255, 255);
+}
+
+#header blockquote {
+    background-color: #40244f;
+    color: white;
+    font-family: 'lora';
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 22px;
+    border-top: 2px dotted white; 
+    border-left:2px dotted white;
+    width: 80%; 
+    border-radius: 10px;
+}
+.list {
+    text-align: center;
+    letter-spacing: 3px; /* Mengatur jarak antar huruf */
+}
+
+.list  a {
+   font-size: 20px;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+   text-decoration: none;
+   
+}
+
+.gambar  {
+    text-align: center;
+}
+
+.gambar .gambar1 {
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.gambar .gambar2 {
+    width: 220px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.isi {
+    font-family: 'lora';
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.isi  .burung {
+    font-size: 47px;
+    color: #c6bf9f;
+}
+
+.isi .jawa {
+    color: #5270b4;
+}
+
+.isi .jawa:hover{
+    font-family: 'lora';
+    font-style: italic;
+}
+
+#profil {
+    background-color:#300b41;
+    font-family: 'lora';
+    border-radius: 10px;
+    height: 700px;
+}
+
+#profil h3 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    
+}
+
+#profil ul li {
+    font-size: 20px;
+}
+
+#profil .atas {
+    display: flex;
+    justify-content: space-between;
+}
+#profil .bawah {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profil .perkututjawa {
+    border: 2px solid  #5270b4;
+    width: 600px;
+    background-color:#40244f;
+    border-radius: 10px;
+    height: 220px;
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    margin: 20px;
+}
+
+#profil .pemakan {
+    border: 2px solid  #5270b4;
+    width: 50%;
+    background-color:#40244f;
+    border-radius: 10px;
+    height: 220px;
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    margin: 20px;
+}
+
+#profil .namalatin {
+    border: 2px solid  #5270b4;
+    width: 600px;
+    background-color:#40244f;
+    border-radius: 10px;
+    height: 220px;
+    color: white;
+    font-size: 29px;
+    text-align: center;
+    margin: 20px;
+}
+
+#profil .rerumputan {
+    border: 2px solid  #5270b4;
+    width: 50%;
+    background-color:#40244f;
+    border-radius: 10px;
+    height: 220px;
+    font-size: 29px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+#beternak {
+   background-color: #300b41;
+    font-family: 'lora';
+    color: aliceblue;
+    width: fit-content;
+    height: 735px;
+}
+
+#beternak h3 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#beternak ol li h4 {
+    font-size: 20px;
+}
+
+.koleksi {
+   text-align: center;
+}
+
+
+.koleksi .burung4{
+    width:250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10%;
+    transition:  0.3s;
+}
+
+.koleksi .burung4:hover{
+    transform: scale(1.1); 
+    box-shadow: 3px 7px 7px white;
+}
+
+.koleksi .burung3{
+    width:250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.koleksi .burung3:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 7px 7px white;
+}
+
+.koleksi .burung5{
+    width:250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.koleksi .burung5:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 7px 7px white;
+}
+
+.koleksi .burung6{
+    width:250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+.koleksi .burung6:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 7px 7px white;
+}
+
+.promo {
+    background-color: #40244f;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    font-family: 'lora';
+    color: white;
+    margin: 20px auto;
+    color: white;
+    border-radius: 4%;
+}
+
+.promo .gocap {
+    color: #c6bf9f;
+}
+
+.promo .tobusho{
+    text-align: center; 
+    margin: 0 auto; 
+    width: fit-content; 
+}
+
+.promo .tobusho a {
+    color: white;
+    text-decoration: none;
+}
