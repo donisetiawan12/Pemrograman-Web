@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbox</title>
+    <style>
+        .container{
+            width: 100px;
+        }
+
+        #box{
+            width: 1000px;
+            border: 1px solid black;
+            height: 400px;
+            padding: 0px 5px;
+        }
+
+        #pesan{
+            width: 1000%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box"></div>
+        <input type="text" id="pesan">
+        <input type="button" value="kirim" onclick="chat()">
+    </div>
+
+    <!--Scrip JS-->
+    <script>
+        let chatbox =document.getElementById("box");
+        let pesanku = document.getElementById("pesan");
+
+        function chat(){
+            let paragraf = document.createElement("p");
+            chatbox.appendChild (paragraf);
+            paragraf.innerHTML = pesanku.value
+        }
+    </script>
+</body>
+</html>
