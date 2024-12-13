@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 11 Pilih Gambar | Doni Setiawan </title>
+    <script>
+        function tampilGambar() {
+            let nilaiTertinggi = document.getElementById("pilihGambar").value;
+
+            switch(nilaiTertinggi){
+                case "gambar1":
+                gambarPilih.src = "../gambar/burung1.png";
+                break;
+                case "gambar2":
+                gambarPilih.src = "../gambar/burung2.png";
+                break;
+                case "gambar3":
+                gambarPilih.src = "../gambar/burung3.png";
+                break;
+                case "gambar4":
+                gambarPilih.src = "../gambar/burung4.png";
+                break;
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<h2>Ganti Gambar </h2>
+    <label for="pilihGambar">Pilih Gambar: </label>
+    <select id="pilihGambar" onchange="tampilGambar">
+        <option value="">Pilih Gambar</option>
+        <option value="gambar1">Burung1</option>
+        <option value="gambar2">Burung2</option>
+        <option value="gambar3">Burung3</option>
+        <option value="gambar4">Burung4</option>
+    </select>
+    <br><br>
+    <img src="../gambar/burung1.png"  id="gambarPilih" alt="Kosong" width="300">
+</body>
+</html>
