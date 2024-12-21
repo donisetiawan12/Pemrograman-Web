@@ -1,0 +1,150 @@
+.img-logo {
+    border-radius: 3rem;
+}
+
+.p-2 .bx{
+    font-size: 40px;
+}
+
+@media (min-width: 430px) {
+    .p-2 .bx {
+        font-size: 30px;
+    }
+}
+@media (min-width: 576px) {
+    .p-2 .bx {
+        font-size: 30px;
+    }
+}
+@media (min-width: 768px) {
+    .p-2 .bx {
+        font-size: 35px;
+    }
+}
+@media (min-width: 992px) {
+    .p-2 .bx {
+        font-size: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    .p-2 .bx {
+        font-size: 50px;
+    }
+}
+
+/* media logo gambar*/
+
+@media (min-width: 430px) {
+.img-logo {
+    width: 50px;
+    height: 50px;
+}
+}
+@media (min-width: 576px) {
+.img-logo {
+    width: 50px;
+    height: 50px;
+}
+}
+@media (min-width: 768px) {
+.img-logo {
+    width: 60px;
+    height: 60px;
+}
+}
+@media (min-width: 992px) {
+.img-logo {
+    width: 80px;
+    height: 80px;
+}
+}
+@media (min-width: 1200px) {
+.img-logo {
+    width: 100px;
+    height: 100px;
+}
+}
+
+#about{
+    padding: 0 2% 1rem ;
+}
+
+.mr-3 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 3px 7px 7px black;
+    border-radius: 1rem;
+}
+@media (min-width: 430px) {
+    .mr-3{
+        width: 180px;
+        height: 180px;
+    }
+    .mt-1,
+    .media-body{
+        text-align: justify;
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 576px) {
+    .mr-3 {
+        width: 220px;
+        height: 220px;
+    }
+    .mt-1,
+    .media-body{
+        /* min-width: 300px; */
+        text-align: justify;
+        font-size: 1rem;
+        
+    }
+}
+@media (min-width: 768px) {
+    .mr-3{
+        width: 250px;
+        height: 250px;
+    }
+
+    .mt-1,
+    .media-body{
+        /* min-width: 450px; */
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+    .mt-0{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+@media (min-width: 992px) {
+    .mr-3{
+        width: 270px;
+        height: 270px;
+    }
+    .mt-1,
+    .media-body{
+        text-align: justify;
+        font-size: 1.5rem;
+        /* min-width: 600px; */
+    }
+    .mt-0{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
+@media (min-width: 1200px) {
+    .mr-3{
+        width: 300px;
+        height: 300px;
+    }
+    .mt-1,
+    .media-body{
+        text-align: justify;
+        font-size: 1.7rem;
+        /* min-width: 840px; */
+    }
+    .mt-0{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}

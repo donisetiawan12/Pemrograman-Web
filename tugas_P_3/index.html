@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang | Doni Setiawan</title>
+</head>
+<body>
+    
+    <fieldset style="display: flex; justify-content: space-between; width: 80%; margin: 20px auto;">
+        <a href="index.html" style="color: black; text-decoration: none;">Home :</a>
+        <a href="#" style="color: black; text-decoration: none;">Generate Link :</a>
+        <a href="#" style="color: black; text-decoration: none;">Transcation History :</a>
+        <a href="#" style="color: black; text-decoration: none;">Policy :</a>
+        <a href="#" style="color: black; text-decoration: none;"> Logout</a>
+    </fieldset>
+    <br>
+    <section style="margin-left: 112px;">
+        <img src="print.png" alt="foto nya" width="200px" height="180px">
+        <br><br>
+        <button style="box-shadow: 0 5px 5px #000;">Upload Picture</button>
+    </section>
+
+    <section>
+        <form action="thank_you.html" style="margin-left: 390px; margin-top: -220px;">
+            <label for="title-here">Title Here :</label>
+            <input type="text" name="title-here" id="title-here" style="margin-left: 100px; width: 400px; height: 20px;" required>
+            <br><br>
+            <label for="description">Description :</label>
+            <textarea name="description" id="description" cols="48" rows="5" style="margin-left: 90px;" required>Year : 
+                                                                                                         Model : 
+                                                                                                         Codition : </textarea>
+            <br><br>
+            <label for="account-number">Account Number :</label>
+            <input type="number" name="account-number" id="account-number" style="margin-left: 54px; width: 399px; height: 20px;" required>
+            <br><br>
+            <label for="bank">Bank :</label>
+            <select name="bank" id="bank" style="margin-left: 131px; width: 300px; height: 25px;">
+                <option value="hsbc"> HSBC </option>
+                <option value="dana"> DANA </option>
+                <option value="bri"> BRI </option>
+                <option value="gopay"> GOPAY </option>
+                <option value="hsbc"> HSBC </option>
+            </select>
+            <br><br>
+            <label for="account-holder">Account Holder :</label>
+            <input type="text" name="account-holder" id="account-holder" style="margin-left: 62px; width: 350px; height: 20px;" required>
+            <br><br>
+            <label for="transcation">Transcation : </label>
+            <input type="number" name="transcation" id="transcation" min="1" max="10" style="margin-left: 90px;" required>
+            <p style="margin-left: 177px;">*if the transcation is for 3 person, choose 3 from the drop-down list</p>
+            <input type="checkbox" name="phone" id="phone" style="margin-left: 177px;">
+            <label for="phone" style="color: green;">Send to Mobile Phone</label>
+            <br>
+            <input type="checkbox" name="email" id="email" style="margin-left: 177px;">
+            <label for="email" style="color: green;">Send to Email</label>
+            <br><br>
+            <label for="phone">Send to Mobile Phone :</label>
+            <input type="number" name="phone" id="phone" style="margin-left: 23px; width: 356px; height: 20px;" required>
+            <br><br>
+            <label for="phone">Send to Email :</label>
+            <input type="email" name="email" id="email" style="margin-left: 75px; width: 356px; height: 20px;" required>
+            <br><br><br><br>
+            <button type="submit" style="margin-left: 180px; color: white; background-color: green; width: 150px; height: 30px; box-shadow: 0 7px 7px #000;" >Generate Nabr Link</button>
+        </form>
+    </section>
+</body>
+</html>
